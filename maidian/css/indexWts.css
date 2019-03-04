@@ -1,0 +1,96 @@
+*{margin: 0;padding: 0;-webkit-box-sizing: border-box;user-select: none;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+input,button{outline: none;border: none;}
+/*弹窗*/
+body{background: #f0576b;}
+.alert-wraptwo {position: fixed;top: 0;left: 0;width: 100%;height: 100%; background:rgba(0,0,0,0);-webkit-transition: -webkit-transform .4s, opacity .2s;transition: transform .4s, opacity .2s;    z-index: 9999; }
+.alert-wraptwo .alert-twoInner {position: absolute;top:30%;margin-top:-30px;left: 50%;color: #fff;text-align: center; border-radius: 4px; background-color: rgba(0,0,0,0.5);
+    /*-webkit-transition: -webkit-transform .4s, opacity .2s;transition: transform .4s, opacity .2s;*/max-width: 210px; font-size: 14px; }
+.backIcon{position: absolute;display: inline-block;width: 20px;height: 20px;left: 6px;top:11px;background: url(../images/back.png) no-repeat;background-size: 100% 100%;}
+.header{line-height: 40px;text-align: center;color: #333;font-size: 16px;background: #f9f9f9;position: fixed;top:0;left: 0;width: 100%;z-index: 999;}
+.bgImg{width: 100%;height: 100%;position: absolute;left: 0;top:0;z-index: -1;}
+.boxes{padding: 10px 15px;margin-top: 40px;}
+.inpDiv,.yzmDivs{width: 100%;background: #eee;margin-top: 10px;position: relative;height: 45px;border-radius: 45px;}
+.inpDiv span{font-size: 14px;padding: 0 0 0 12px;position: absolute;left: 0 ;top:0;line-height: 45px;color: #727171;}
+.textYzm{position: absolute;left: 0 ;top:0;}
+.yzmDivs span{font-size: 14px;padding: 0 0 0 12px;line-height: 45px;color: #727171;}
+.inpDiv input,.yzmDivs input{width: 100%;font-size: 14px;padding-left: 79px;height:20px;line-height:20px;margin-top: 12.5px;background: #eeeeee;border-radius: 45px;}
+.inputCheck{float: left;margin: 2.8px 5px 0 1px;}
+.goTo{width: 100%;margin-top:6px;background: #1aac19;border-radius: 4px;line-height: 50px;height: 50px;text-align: center;color: #fff;font-size: 18px;}
+.agreeDiv{font-size: 12px;color: #b5b5b6;margin-top:10px;}
+.agreeDiv a{color: #b5b5b6;}
+.nameDiv{position: relative;}
+.sexDiv{position: absolute;right: 9px;top:0;width: 55px;height: 24px;margin-top: 11px;overflow: hidden;
+    border-radius: 2px;background: url('../images/mr.png') no-repeat;background-size: 100% 100%;}
+div.womanDiv{background: url('../images/woman.png') no-repeat;background-size: 100% 100%;}
+.sexDiv a{display: inline-block;border:1px solid #ccc;width: 50%;background: #fff;float: left;text-decoration: none;color: #ccc;font-size: 12px;text-align: center;line-height: 22px;}
+.sexDiv a:first-child{border-right:0; border-radius:4px 0 0 4px; }
+.sexDiv a:last-child{border-left:0; border-radius:0 4px 4px 0; }
+.sexDiv a.actives{background:#179b16;border: none;line-height: 24px;color: #fff;}
+.indexDiv{overflow: hidden;}
+.content{padding: 12px;}
+.serviceDiv{display: none;overflow: hidden;background: #fff;}
+.content{margin-top: 40px;}
+.titH{font-size: 16px;color: #333;}
+.titH2{font-size: 14px;color: #333;margin-top: 5px;margin-bottom: 5px;}
+.contP{font-size: 13px;color: #555;line-height: 23px;text-indent: 2em;text-align: justify;}
+.titP{font-size: 13px;}
+*{-webkit-box-sizing: border-box;}
+.topImg{width: 100%;margin-top: 10px;}
+.bigTit{margin-top: 15px;}
+.boxes form{width: 100%;background: #fff;border-radius: 8px;padding: 10px 8px;}
+.goTo{background: url("../images/btn4_03.png") no-repeat;background-size: 100% 100%;text-align: center;font-size: 17px;color: #fff;}
+.indexWts select{appearance: none;-moz-appearance: none;-webkit-appearance: none;outline: none;border: none;}
+    .indexWts .selectIns{width: 100%;font-size: 14px;padding-left: 79px;height: 45px;line-height: 45px;background: rgba(256,256,256,0);border-radius: 5px;}
+    .indexWts input::-webkit-input-placeholder{
+        color:#ababab;
+    }
+    .indexWts input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+        color:#ababab;
+    }
+    .indexWts input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+        color:#ababab;
+    }
+    .indexWts input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+        color:#ababab;
+    }
+.getYzmDiv {
+    width: 112px !important;
+    text-align: center;
+}
+.form-cell {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.leftBorder {
+    position: relative;
+}
+#getYzm, #getYzmtwo {
+    width: 122px;
+    border: 0;
+    outline: none;
+    height: 45px;
+    color: #fe9657;
+    font-size: 14px;
+    line-height: 45px;
+    margin: 0 0px 0 15px;
+}
+#getYzm, #getYzmtwo {
+    width: 122px;
+    border: 0;
+    outline: none;
+    height: 45px;
+    color: #fe9657;
+    font-size: 13px;
+    line-height: 45px;
+    margin: 0 0px 0 15px;
+}
+.grayFont {
+    color: #b1b4b1 !important;
+}
+#againYzm {
+    line-height: 45px;
+    margin: 0 15px 0 15px;
+    display: none;
+    font-size: 13px;
+}
